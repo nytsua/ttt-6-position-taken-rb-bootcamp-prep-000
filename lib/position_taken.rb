@@ -2,6 +2,6 @@
 require 'pry'
 
 def position_taken?(board, index)
-  binding.binding.pry
+  binding.pry
   board[index] != " "
 end
